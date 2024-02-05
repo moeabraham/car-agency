@@ -1,0 +1,59 @@
+.hamburger{
+
+display:none;
+}
+
+.burger1Transformed{
+    transform:rotate(45deg);
+    /* background-color:purple;
+    width:200px;
+    height:200px; */
+}
+.Burger1NotTransformed{
+    transform:rotate(0)
+}
+.burger2Transformed{
+    transform:translateX(100%);
+    opacity:0
+
+}
+.Burger2NotTransformed{
+    transform:translateX(0);
+    opacity:1
+}
+.burger3Transformed{
+    transform:rotate(-45deg)
+}
+.Burger1NotTransformed{
+    transform:rotate(0)
+}
+
+
+.burger{
+    width:2rem;
+    height:0.25rem;
+    border-radius:10px;
+    background-color: black;
+    transform-origin:1px;
+    transition: all 0.3s linear;
+}
+.icon{
+    display:none;
+}
+
+@media (max-width:767px){
+    .hamburger{
+        width:2rem;
+        height:2rem;
+        display:flex;
+        justify-content: space-around;
+        flex-flow: column nowrap;
+        z-index:10;
+         /* background-color:red; */
+        align-self: center;
+    }
+
+    .icon{
+        display:block;
+    }
+}

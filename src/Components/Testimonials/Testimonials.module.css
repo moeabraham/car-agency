@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@500&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&display=swap');
+
+
+/*     font-family: 'Kalnia', serif;
+    font-family: 'Rubik', sans-serif;
+
+ */
+
+
+.testContainer{
+    /* background-color:red; */
+    /* height:200px; */
+    width:90%;
+    margin: 0 auto;
+    text-align:center;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding:1rem;
+    margin-top:2rem;
+    background-color: #f8f8f8;
+    /* padding:10rem; */
+}
+
+
+.textHeaders{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Poppins', sans-serif;
+    position:relative;
+    justify-content: center;
+}
+
+.textHeaders > h3{
+    font-size:23px;
+}
+.textHeaders > h1{
+    font-size:33px;
+    /* position: relative;
+    bottom:rem;
+    top:1rem */
+    margin-bottom: 1rem;
+}
+.textHeaders > p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+.cardContainer{
+    display:flex;
+    gap:2rem;
+    height:auto;
+
+}
+.leftCard{
+    /* flex:1; */
+    /* border:1px solid black;
+    width:50%;
+    margin:0 auto;
+    height:300px; */
+    background-color: #fff;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+    padding: 5.5rem;
+    position: relative;
+    width: 54rem;
+    height:300px;
+}
+
+
+.rightCard{
+    /* background-color:green; */
+    /* flex:1; */
+    /* border:1px solid black;
+    height:300px;
+
+    width:50%;
+    margin:0 auto; */
+    background-color: #fff;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+    padding: 5.5rem;
+    position: relative;
+    width: 54rem;
+    height:300px;
+}

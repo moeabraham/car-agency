@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@500&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+
+.container{
+    /* background-color:red; */
+    width:90vw;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    /* margin-top:5rem; */
+    margin: 0 auto;
+    align-self: center;
+    align-items: center;
+    position:relative;
+    top:5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    margin-bottom:5rem;
+    box-sizing: border-box;
+    overflow: auto;
+    /* overflow-x: hidden; */
+}
+.modalOn{
+    display:none;
+}
+
+.table{
+    display:flex;
+    /* align-items:center; */
+    flex-wrap:wrap;
+    width:90vw;
+    margin:0 auto;
+    text-align:center;
+    height:50vh;
+
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-self: center;
+    justify-content: center;
+
+    gap:2rem;
+}
+
+.firstRow{
+    display:flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    width:100%;
+    
+}
+input, label{
+    display:flex;
+    flex: 1;
+    margin: 5px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+
+}
+.secRow{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    height:6rem;
+    width:100%;
+    justify-content: center;
+    /* align-self:center ; */
+    
+
+}
+input{
+    width:auto;
+    height:auto;
+    border-style: none;
+    background-color: antiquewhite;
+    opacity:0.5;
+    height:auto;
+    border-radius: 8px;
+}
+/* .subButton{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(253, 0, 0, 0.852);
+    cursor:pointer;
+    font-size:1.4rem;
+    color:white;
+    border-radius: 8px;
+    
+
+height: 3rem;
+width:100%;
+border-style: none;
+} */
+.formButton{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    /* align-self: flex-start; */
+    margin-top:1.1rem;
+    background-color: rgba(253, 0, 0, 0.852);
+    cursor:pointer;
+    font-size:1.4rem;
+    color:white;
+    border-radius: 8px; 
+ height: 3.5rem;
+width:100%;
+border-style: none;
+font-family: 'Kalnia', serif;
+font-weight: 650;
+
+}
+/* input, select, textarea{
+    color: #ff0000;
+} */
+.input{
+    height:3rem;
+    border-radius: 10px;
+    border:0.5px lightgrey ;
+    background-color: antiquewhite;
+    color:black;
+    font-weight: large;
+    font-weight: 600;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Kalnia', serif;
+    font-size:16px;
+    text-align:center;
+    color:black;
+}
+
+@media (max-width:767px){
+    .container{
+        width:100%;
+
+        margin:0 auto;
+        /* margin-top:5rem; */
+        /* display:flex;
+        flex-direction:column; */
+        /* height:100vh; */
+        text-align: center;
+        height:100vh;
+        
+    }
+  .table{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:90vw;
+    /* align-self: center; */
+    /* justify-content: center; */
+    /* width:auto; */
+    height:100vh;
+    flex:1;
+
+  }
+  .form{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap:wrap;
+    width:90vw;
+    flex:1;
+    /* flex:0.5; */
+}
+    .firstRow{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        /* width:90vw; */
+        /* height:45vh; */
+        flex-wrap: wrap;
+    }
+    .secRow{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        width:90vw;
+        height:45vh;
+
+    }
+    .labels{
+        width:100%;
+        height: auto;
+        /* height:auto; */
+
+    }
+    .input{
+        height:3rem;
+        border-radius: 10px;
+        border:0.5px lightgrey ;
+        background-color: antiquewhite;
+        color:black;
+        font-weight: large;
+        font-weight: 600;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Kalnia', serif;
+        font-size:16px;
+        text-align:center;
+        color:black;
+    }
+   
+}
