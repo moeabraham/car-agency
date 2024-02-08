@@ -23,7 +23,18 @@
     justify-content: center;
     text-align:center;
     gap:1rem;
+    align-items:center;
+    margin:0 auto;
 
+}
+
+.headers > .here{
+    text-align:center;
+    justify-content: center;
+    font-weight:500;
+    font-family:'poppins';    
+    font-size:2rem;
+    list-style: underline;
 }
 
 .main{
@@ -95,8 +106,22 @@ align-self: center;
 
 
 
-/* .rightTable{
-    display:flex;
-    
-    grid-template-columns: 1.5fr 0.5fr ;
-} */
+@media (max-width:767px){
+
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .layout{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .rightTable{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+}

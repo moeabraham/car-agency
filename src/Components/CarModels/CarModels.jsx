@@ -16,8 +16,8 @@ console.log(clicked, "IMP")
         <div className={styles.headers} >
             <h3>Vehicle Models</h3>
             <h1>Browse Our Collection</h1>
-            <p>Choose from a variety of our amazing vehicles to rent for your next </p>
-            <p>Next Adventure or Business Trip</p>
+            <p>Choose from a variety of our amazing vehicles  </p><span className={styles.here}>Here</span>
+            {/* <p>Next Adventure or Business Trip</p> */}
         </div>
 
         {/* flex here */}

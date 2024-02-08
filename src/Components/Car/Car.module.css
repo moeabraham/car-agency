@@ -93,3 +93,16 @@ table{
 /* .col{
     border: 1px solid red
 } */
+
+@media (max-width:767px){
+
+
+.carInfo{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+}

@@ -10,6 +10,9 @@ import Banner from '../../Components/Banner/Banner';
 import Info from "../../Components/Info/Info";
 // import FullStack from '../../Components/FullStack/FullStack';
 import Testimonials from '../../Components/Testimonials/Testimonials';
+import FAQ from "../../Components/FAQ/FAQ";
+import Download from '../../Components/Download/Download';
+import Footer from "../../Components/Footer/Footer"
 function Home() {
   return (
     <>
@@ -21,7 +24,10 @@ function Home() {
          <Banner />
          <Info />
          <Testimonials />
-         {/* <FullStack /> */}
+         <FAQ />
+         <Download />
+        <Footer /> 
+        
     </>
   )
 }

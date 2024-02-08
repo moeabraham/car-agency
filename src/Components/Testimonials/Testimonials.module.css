@@ -20,13 +20,14 @@
     width:90%;
     margin: 0 auto;
     text-align:center;
-    height:auto;
+    height:70vh;
     display:flex;
     flex-direction:column;
     gap:2rem;
     padding:1rem;
-    margin-top:2rem;
+    /* margin-top:2rem; */
     background-color: #f8f8f8;
+    justify-content: center;
     /* padding:10rem; */
 }
 
@@ -41,13 +42,10 @@
 }
 
 .textHeaders > h3{
-    font-size:23px;
+    font-size:1.5rem;
 }
 .textHeaders > h1{
-    font-size:33px;
-    /* position: relative;
-    bottom:rem;
-    top:1rem */
+    font-size:23px;
     margin-bottom: 1rem;
 }
 .textHeaders > p {
@@ -58,36 +56,268 @@
 .cardContainer{
     display:flex;
     gap:2rem;
-    height:auto;
+    height:100%;
+    /* height:auto; */
 
 }
 .leftCard{
-    /* flex:1; */
-    /* border:1px solid black;
-    width:50%;
-    margin:0 auto;
-    height:300px; */
+   
     background-color: #fff;
     box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
-    padding: 5.5rem;
+    padding: 3rem;
     position: relative;
-    width: 54rem;
-    height:300px;
+    height:auto;
+    gap:2rem;
+    display:flex;
+    flex-direction: column;
+    flex:1 
+}
+
+.rightCard{
+    background-color: #fff;
+      box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+      padding: 3rem;
+      position: relative;
+      flex:1;
+      height:auto;
+      /* height:auto; */
+      
+      gap:2rem;
+      display:flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+  }
+
+.textPart{
+    text-align:center;
+     position:absolute;
+    top:0; 
+   left:auto; 
+    display: flex;
+    height:50%;
+}
+.textPart > p {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight:600;
+    font-family: 'Rubik', sans-serif;  
+    font-size:1.5rem;
+    gap:1rem;
+    padding:3rem;
+    color:black;
+    /* margin-bottom:1rem; */
 }
 
 
-.rightCard{
-    /* background-color:green; */
-    /* flex:1; */
-    /* border:1px solid black;
-    height:300px;
+.cardInfo{
+   
+    position: absolute;
+    top:40%;
+    left:25%;
+    display:flex;
+    max-width:100%;
+    height:50%;
+    /* width:100 */
 
-    width:50%;
-    margin:0 auto; */
-    background-color: #fff;
+
+}
+.cardImg{
+    width:100%;
+    object-fit: contain;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    position:absolute;
+    bottom:0;
+    /* display:flex; */
+    /* flex-direction:column; */
+    /* display:flex; */
+    /* justify-content: space-around; */
+    /* left:auto; */
+    /* display: flex;
+    align-items: flex-end; */
+  
+}
+.svgIcon{
+    
+    background-color:red;
+    width:20px;
+    height:20px;
+    /* position:absolute;
+    right:100%; */
+
+}
+.cardImg > img{
+    max-width:100%;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
     box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
-    padding: 5.5rem;
-    position: relative;
-    width: 54rem;
-    height:300px;
+    position:absolute;
+    bottom:0;
+    left:-100%;
+}
+.charName{
+    font-family: 'poppins';
+    font-size:large;
+    font-weight:500;
+    position:absolute;
+    left:0;
+    bottom:0;
+    
+}
+
+
+
+.zikas{
+    position:absolute;
+    top: 50%;
+    right: -100%;
+
+}
+
+
+
+
+@media (max-width:767px){
+    .testContainer{
+        display:flex;
+        flex-direction:column; 
+        height:100vh;
+        /* margin-top:38rem; */
+        /* width:100%;
+        margin: 0 auto; */
+    }
+
+    .textHeaders{
+        display:flex;
+        flex-direction:column;
+        gap:0.5rem;
+        position:relative;
+
+    }
+
+    .textHeaders > h3{
+        font-size:0.9rem;
+        margin-bottom: 0rem;
+
+    }
+
+    .textHeaders > h1{
+        font-size:1.3rem;
+        /* position: relative;
+        bottom:rem;
+        top:1rem */
+        margin-bottom: 0rem;
+    }
+    .textHeaders > p {
+        font-size:1rem;
+
+    }
+    .cardContainer{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        margin:0 auto;
+        height:100%;
+        /* justify-content: space-around; */
+
+    }
+
+    .leftCard{
+        display:flex;
+        flex-direction:column;
+        width:70%;
+        margin:0 auto;
+        /* padding: 1rem; */
+        height:100%;
+        border-radius:5%;
+        box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+        position:relative;
+    }
+
+    .rightCard{
+        display:flex;
+        flex-direction:column;
+        width:70%;
+        margin:0 auto;
+        height:100%;
+        border-radius:5%;
+        box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+
+    }
+    .textPart{
+        display:flex;
+        flex-direction:column;
+        /* width:100%; */
+        /* margin: 0 auto; */
+        height:50%;
+        position:absolute;
+        top:0;
+        left:0
+        
+
+    }
+
+    .textPart > p{
+        font-size:1rem
+    }  
+    .cardInfo{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        /* margin:0 auto; */
+        /* text-align:center; */
+        /* align-items: center; */
+        height:50%;
+        /* justify-content: space-between; */
+        position:absolute;
+        bottom:0;
+        left:0
+    }
+
+    .cardInfo > .cardImg{
+        display:flex;
+        width: 100%;
+
+}
+
+    .cardImg{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        align-self: center;
+        position:relative;
+        /* 
+        margin: 0 auto; */
+    }
+
+    .cardImg > img{
+    max-width:100%;
+    position:absolute;
+    /* bottom:1rem; */
+    left:5%;
+    bottom:-10%;
+
+} 
+.cardImg > span{
+    max-width:100%;
+    position:absolute;
+    bottom:0rem;
+    left:17%;
+    font-size:0.8rem;
+
+} 
+.cardImg > img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.zikas{
+    position:absolute;
+    top: 6rem;
+    right: 1.2rem;
+
+}
+  
 }

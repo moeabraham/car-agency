@@ -84,7 +84,7 @@ function Booking() {
                             className={styles.input}
                             onChange={handleCarType}
                             >
-                                <option value="Volvo">Volvo</option>
+                                <option value="Volvo">Voooolvooooo</option>
                                 <option value="VW">VW</option>
                                 <option value="Mercedes">Mercedes</option>
                                 <option value="Audi">Audi</option>

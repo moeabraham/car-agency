@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@500&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;500&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&display=swap');
+
+
+.faqContainer{
+    width:80%;
+    margin:0 auto;
+    /* background-color: red; */
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    height:auto;
+         background-image:url("../../Assets/lux.png");
+    /* background-size: cover;
+    background-position: right bottom;  */
+    /* background-image: url(/static/media/car.5e21eed….png); */
+    background-position:   -18% 95%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 8rem 0;
+}
+
+.faqHeaders{
+    text-align:center;
+    padding:1rem;
+    font-family:'poppins';
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.faqHeaders > h1{
+    font-size:3rem;
+    text-align: center;
+    margin-bottom:1rem
+
+}
+
+.faqHeaders > p{
+    font-size:1rem;
+    text-align: center;
+    align-items:center;
+    margin-bottom:1rem;
+    width:100%;
+    margin: 0 auto;
+
+}
+
+.main{
+    display:flex;
+    position:relative;
+    z-index:1;
+}
+
+
+.sideImg{
+    position:absolute;
+    width:30%;
+    /* left:50%; */
+    left:-50%;
+
+}
+.faqTable{
+    width:50%;
+    margin: 0 auto;
+    /* border:1px solid red; */
+    height:auto;
+    z-index:10;
+    background-color: #f8f8f8;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+    padding:2rem;
+    text-align:center;
+    align-items:center;
+    /* width: 100; */
+
+}
+
+.firstQ > p {
+    font-family:'poppins';
+    font-size:1.2rem;
+    font-weight:600;
+    color:black;
+    cursor:pointer;
+    padding:1rem;
+
+}
+.firstQ{
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid black; */
+    /* height:100px; */
+    
+}
+
+.row{
+    
+}
+
+.firstQ > svg{
+    cursor:pointer;
+    padding:1rem;
+
+}
+
+@media (max-width:767px){
+    .faqContainer{
+        max-width:100%;
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        padding:0.5rem;
+        margin: 0 auto;
+
+
+        height:auto;
+        background-image:url("../../Assets/lux.png");
+   /* background-size: cover;
+   background-position: right bottom;  */
+   /* background-image: url(/static/media/car.5e21eed….png); */
+   background-position:   38% 95%;
+   background-repeat: no-repeat;
+   background-size: auto;
+    }
+    .faqHeaders{
+        width:100%;
+        gap:1rem;
+        font-size:1rem;
+
+    }
+    .faqHeaders > h1{
+        font-size:1.4rem;
+    }
+    .faqHeaders > p{
+        font-size:1rem;
+    }
+
+    .main{
+
+    }
+}
