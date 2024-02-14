@@ -8,7 +8,8 @@
 
 }
 .navBar{
-    padding: 5px; 
+    padding: 0.8rem; 
+    gap:1rem;
     background-color: transparent;
     height:100px;
     display:flex;
@@ -21,8 +22,8 @@
     /* padding:auto; */
     /* font-family: 'Roboto', sans-serif; */
     
-    font-weight:500;
-    font-size:large;   
+    font-weight:700;
+    font-size:0.8rem;   
     background-color: transparent;  
     border-bottom: white 1px solid;   
     opacity:1;
@@ -32,7 +33,7 @@
 
 .logo{
      width:11rem;
-    height:8rem; 
+    /* height:8rem;  */
     display:flex;
     align-items:  center;
     cursor:pointer;
@@ -54,7 +55,7 @@
 .linksList{
     display:flex;
     justify-content:space-around;
-    gap:2rem;
+    gap:1.5rem;
     list-style-type:none;
     width:75%;
     margin:0 auto;
@@ -220,5 +221,7 @@ Link{
 
     .sideNav{
         background-color: rgb(73, 93, 64);
+        font-size:20px;
+
     }
 }

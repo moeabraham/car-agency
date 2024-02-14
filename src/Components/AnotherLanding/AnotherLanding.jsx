@@ -56,8 +56,8 @@ function AnotherLanding() {
                     </h1>
 
                     <div className={styles.anotherButtons}>
-                    <button className={styles.anotherButton}>Discover More</button>
-                    <button className={styles.anotherButton}>Meet Proxima 4x</button>
+                    <button  className={styles.gradientButton} >Discover More</button>
+                    <button className={styles.gradientButton}>Meet Proxima 4x</button>
                     </div>
 
                  </section>

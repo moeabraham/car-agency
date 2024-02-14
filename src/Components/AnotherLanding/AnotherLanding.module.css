@@ -114,7 +114,44 @@
     background-color:transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     color:white;
+    cursor:pointer;
 
+}
+.gradientButton {
+    background-color: transparent;
+    color: black;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  */
+
+    /* border: 2px solid black; */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.gradientButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: transform 0.4s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+.gradientButton:hover::before {
+    transform: scaleX(1);
+}
+
+.gradientButton:hover {
+    background-color: white;
+    color: black;
 }
 
 .anotherFormDiv{
@@ -130,7 +167,7 @@
     display:flex;
     flex-direction:column;
     gap:1rem;
-    padding:1rem;
+    padding:0.9rem;
 
 }
 
