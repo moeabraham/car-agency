@@ -36,6 +36,11 @@
 
 }
 
+.pageHeaders{
+    text-align:center;
+
+}
+
 .steps{
     display:flex;
     /* gap:3rem; */
@@ -130,7 +135,9 @@ h1{
     font-family: 'Ubuntu', sans-serif;
 
 }
-
+.headers > h1{
+    text-align:center;
+}
 .text{
     display:flex;
     flex-direction: column;
@@ -161,7 +168,7 @@ justify-content:center;
 
 .pageHeader{
     margin-top:5rem;
-
+    text-align:center;
 
 }
 .steps{

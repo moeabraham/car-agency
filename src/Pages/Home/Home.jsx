@@ -13,13 +13,17 @@ import Testimonials from '../../Components/Testimonials/Testimonials';
 import FAQ from "../../Components/FAQ/FAQ";
 import Download from '../../Components/Download/Download';
 import Footer from "../../Components/Footer/Footer"
+import AnotherLanding from '../../Components/AnotherLanding/AnotherLanding';
 function Home() {
   return (
     <>
-        <Nav />
-        <LandingPage />
-         <Booking />
+        {/* <Nav /> */}
+        <AnotherLanding />
+
+        {/* <LandingPage /> */}
+      
          <Promotion />
+         <Booking />
          <CarModels />
          <Banner />
          <Info />
@@ -27,6 +31,7 @@ function Home() {
          <FAQ />
          <Download />
         <Footer /> 
+
         
     </>
   )

@@ -11,8 +11,7 @@ function Download() {
 
         <div className={styles.downloadLeftSide}>
             <div className={styles.downloadHeaders}>
-                <h1>Download our app to get</h1>
-                <h1>many,many perks!!</h1>
+                <h1>Download our app to get many,many perks!!</h1>
                 <p>lots and lots of rewards and promotions dedicated 
                     to customers using our user friendly mobile app</p>
             </div>

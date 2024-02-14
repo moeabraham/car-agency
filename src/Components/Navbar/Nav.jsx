@@ -6,11 +6,11 @@ import {useState} from "react";
 import Hamburger from './Hamburger';
 import { FcUpLeft } from "react-icons/fc";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import CL from "../../Assets/cl.png"
 
 
-
-function Nav() {
-
+function Nav( {style} ) {
+console.log(style)
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const toggleHamburger = () =>{
     setHamburgerOpen(!hamburgerOpen)
@@ -18,10 +18,11 @@ function Nav() {
 // console.log(hamburgerOpen)
   return (
     <> 
-    <div className={styles.navBar}>
+    <div className={styles.navBar} style={style}>
 {/* LOGO */}
         <div className={styles.logo}>
           <Link to="/">
+             
               <img className={styles.logoSVG} src={carLogo1}></img>
           </Link>
         </div>

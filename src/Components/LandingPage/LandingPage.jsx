@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./LandingPage.module.css";
 import carBG from "../../Assets/carBG.png";
+import BGBGBG from "../../Assets/bgbgbg.png";
+
 import car from "../../Assets/car.png";
 import pexels from "../../Assets/pexels.png";
 import muffler from "../../Assets/muffler.png";
@@ -10,6 +12,8 @@ function LandingPage() {
     
         <div className={styles.container}>
           <div className={styles.leftSide}>
+          <img className={styles.backGround} src={BGBGBG} />
+
             <div className={styles.promos}>
                 <h2>Let's Book Your Ride! </h2>
                 <h1>Save <span className={styles.span}>Big</span> With  </h1>
@@ -23,16 +27,15 @@ function LandingPage() {
             </div>
             
           </div>
-          <div className={styles.rightSide}>
+          {/* <div className={styles.rightSide}> */}
               {/* <img className={styles.backGround} src={carBG} /> */}
 
-            <div className={styles.imgs}>
-              <img className={styles.foreGround} src={car} />
+            {/* <div className={styles.imgs}> */}
+              {/* <img className={styles.foreGround} src={BGBGBG} /> */}
 
-              <img className={styles.backGround} src={carBG} />
 
-            </div>
-          </div>
+            {/* </div>
+          </div> */}
 
         </div>
 

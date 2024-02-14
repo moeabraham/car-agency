@@ -15,7 +15,7 @@
     display:flex;
     flex-direction:column;
     gap:4rem;
-    height:auto;
+    height:70vh;
          background-image:url("../../Assets/lux.png");
     /* background-size: cover;
     background-position: right bottom;  */
@@ -23,12 +23,12 @@
     background-position:   -18% 95%;
     background-repeat: no-repeat;
     background-size: auto;
-    padding: 8rem 0;
+    /* padding: 8rem 0; */
 }
 
 .faqHeaders{
     text-align:center;
-    padding:1rem;
+    /* padding:1rem; */
     font-family:'poppins';
     display:flex;
     flex-direction:column;
@@ -37,7 +37,7 @@
 
 
 .faqHeaders > h1{
-    font-size:3rem;
+    font-size:2rem;
     text-align: center;
     margin-bottom:1rem
 

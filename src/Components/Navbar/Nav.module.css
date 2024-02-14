@@ -16,11 +16,18 @@
     /* justify-content: center; */
 
     align-items:  center;
-    width:90vw;
+    width:90%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    /* padding:auto; */
+    /* font-family: 'Roboto', sans-serif; */
+    
     font-weight:500;
-    font-size:large;        
+    font-size:large;   
+    background-color: transparent;  
+    border-bottom: white 1px solid;   
+    opacity:1;
+    z-index:100;
+    
 }
 
 .logo{
@@ -28,6 +35,7 @@
     height:8rem; 
     display:flex;
     align-items:  center;
+    cursor:pointer;
 
 }
 .logoSVG{
@@ -41,6 +49,7 @@
     display:flex;
     list-style-type:none;
     justify-content: center;
+    color:white;
 }
 .linksList{
     display:flex;
@@ -55,11 +64,14 @@
 }
 .text{
     text-decoration: none;
-    /* font-family: 'Bebas Neue', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-font-family: 'Montserrat Alternates', sans-serif;
-color:black
+    font-family: 'Kalnia', serif;
 
+    /* font-family: 'Bebas Neue', sans-serif; */
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Montserrat Alternates', sans-serif; */
+color:white;
+font-weight:800;
 
 }
 
@@ -73,21 +85,26 @@ color:black
     width:6rem;
     /* background-color:rgba(73, 93, 64, 0.856); */
     background-color: transparent;
-    color:rgba(73, 93, 64, 0.856);
+    /* color:rgba(73, 93, 64, 0.856); */
+    color:white;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 19px;
     text-align: center;
     cursor:pointer;
+    font-weight:800;
 
     padding: 10px;
+    border: white 1px solid;
 }
 
 .regButton{
     border:none;
     height:3rem;
     width:6rem;
-    background-color:rgba(73, 93, 64, 0.856);
+    background-color:transparent;
+    /* background-color:rgba(73, 93, 64, 0.856); */
     color:white;
+    font-weight:800;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -95,6 +112,7 @@ color:black
 
     padding: 10px;
 
+    border: white 1px solid;
 
 
 }
@@ -144,6 +162,7 @@ li {
     z-index:10000;
     color:red;
     /* text-decoration:dashed; */
+    cursor:pointer;
 
     
 }
@@ -157,6 +176,11 @@ Link{
 
 }
 @media (max-width:767px){
+
+    .navBar{
+        height:4rem;
+        margin-bottom:0;
+    }
     .linksList{
         display:none;
     }
